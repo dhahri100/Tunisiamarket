@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewControl.ServicesFormControl">
+   <children>
+      <Pane layoutY="8.0" prefHeight="420.0" prefWidth="131.0" style="-fx-background-color: #6A5ACD; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="28.0" fitWidth="23.0" layoutX="53.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/settings.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="5.0" layoutY="358.0" prefHeight="0.0" prefWidth="119.0" style="-fx-background-color: #F4A460; -fx-background-radius: 20;" />
+            <ImageView fitHeight="40.0" fitWidth="35.0" layoutX="38.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/home.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="354.0" prefHeight="6.0" prefWidth="106.0" style="-fx-background-color: #F4A460; -fx-background-radius: 20;" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="108.0" fitWidth="160.0" layoutX="2.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Tunisiamarket.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="26.0" layoutX="553.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/person.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="224.0" layoutY="71.0" prefHeight="40.0" prefWidth="329.0">
+         <children>
+            <TextField fx:id="txtSearch" layoutX="78.0" layoutY="-1.0" prefHeight="36.0" prefWidth="149.0" promptText="Enter name..." style="-fx-border-color: #6A5ACD;" />
+            <Button fx:id="btnSearch" layoutX="237.0" layoutY="2.0" minWidth="43.0" mnemonicParsing="false" onAction="#search" prefHeight="31.0" prefWidth="43.0" rotate="180.0" style="-fx-background-color: #524A7B;" styleClass="button1" stylesheets="@../style/style.css" />
+            <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="246.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/search.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnBack" layoutX="25.0" layoutY="2.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="43.0" style="-fx-background-color: #524A7B;" styleClass="button1" stylesheets="@../style/style.css" />
+            <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="37.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8-arrière-32.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label fx:id="productlabel" layoutX="171.0" layoutY="14.0" prefHeight="26.0" prefWidth="106.0" style="-fx-border-color: #6A5ACD; -fx-border-radius: 20;" text="  Sales">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Label>
+      <Pane layoutX="168.0" layoutY="120.0" prefHeight="288.0" prefWidth="398.0" style="-fx-background-color: #A9A9A9; -fx-background-radius: 20;">
+         <children>
+            <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="131.0" text="Button">
+               <graphic>
+                  <ComboBox prefHeight="40.0" prefWidth="150.0" promptText="product_type" />
+               </graphic>
+            </Button>
+            <TextField layoutX="15.0" layoutY="82.0" promptText="ref_product" />
+            <TextField layoutX="15.0" layoutY="118.0" promptText="price" />
+            <TextField layoutX="15.0" layoutY="162.0" promptText="number" />
+            <TextField layoutX="15.0" layoutY="204.0" promptText="discount" />
+            <Button layoutX="58.0" layoutY="247.0" mnemonicParsing="false" text="Total" />
+            <Button layoutX="260.0" layoutY="247.0" mnemonicParsing="false" text="print_invoice" />
+            <TextField layoutX="214.0" layoutY="18.0" prefHeight="200.0" prefWidth="149.0" promptText="invoice" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="655.0" styleClass="body" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewControl.HomeControl">
+   <children>
+      <Pane layoutX="160.0" layoutY="20.0" prefHeight="413.0" prefWidth="488.0" style="-fx-background-color: #DCDCDC; -fx-background-radius: 20;" stylesheets="@../style/style.css" AnchorPane.leftAnchor="184.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Pane layoutX="-8.0" layoutY="16.0" prefHeight="32.0" prefWidth="298.0" style="-fx-background-color: white; -fx-background-radius: 90;">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="163.0" layoutX="31.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/welcome (2).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="397.0" prefHeight="80.0" prefWidth="91.0">
+               <children>
+                  <Button layoutX="20.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="74.0" styleClass="chart" />
+               </children>
+            </Pane>
+            <Button layoutX="45.0" layoutY="109.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: white; -fx-border-color: #BA55D3; -fx-border-radius: 20;" styleClass="button2" text="Delivery">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/delivery.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="45.0" layoutY="223.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: white; -fx-border-color: #BA55D3; -fx-border-radius: 20;" styleClass="button2" text="Discount">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/discout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="244.0" layoutY="216.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: white; -fx-border-color: #BA55D3; -fx-border-radius: 20;" styleClass="button2" text="Gifts">
+               <graphic>
+                  <ImageView fitHeight="42.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/gift.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="45.0" layoutY="319.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: white; -fx-border-color: #BA55D3; -fx-border-radius: 20;" styleClass="button2" text="News">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/new.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="237.0" layoutY="109.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: white; -fx-border-color: #BA55D3; -fx-border-radius: 20;" styleClass="button2" text="Basket">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/basket.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="250.0" layoutY="319.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: white; -fx-border-color: #BA55D3; -fx-border-radius: 20;" styleClass="button2" text="policies">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/services.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="40.0" fitWidth="42.0" layoutX="370.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/person.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="4.0" layoutY="16.0" prefHeight="419.0" prefWidth="180.0" style="-fx-background-color: white; -fx-background-radius: 20;" AnchorPane.rightAnchor="471.0">
+         <children>
+            <ImageView fitHeight="114.0" fitWidth="123.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Tunisiamarket.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="9.0" layoutY="76.0" prefHeight="280.0" prefWidth="163.0" style="-fx-background-color: #DCDCDC; -fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;">
+               <children>
+                  <Button fx:id="btnS" graphicTextGap="50.0" layoutX="5.0" layoutY="94.0" mnemonicParsing="false" onAction="#openServices" prefHeight="26.0" prefWidth="154.0" style="-fx-background-color: #F4A460;" styleClass="button2" text="Services">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/products.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnP" graphicTextGap="50.0" layoutX="5.0" layoutY="36.0" mnemonicParsing="false" onAction="#openProducts" prefHeight="26.0" prefWidth="154.0" style="-fx-background-color: #F4A460;" styleClass="button2" text="Products">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/services2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnE" graphicTextGap="50.0" layoutX="5.0" layoutY="152.0" mnemonicParsing="false" onAction="#openEmployees" prefHeight="26.0" prefWidth="154.0" style="-fx-background-color: #F4A460;" styleClass="button2" text="Employees">
+                     <font>
+                        <Font name="Bell MT Bold" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/employees.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+            <Button layoutX="9.0" layoutY="360.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="37.0" style="-fx-background-color: white;">
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
